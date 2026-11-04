@@ -2,3 +2,27 @@
 
 A simple command-line TODO application built with Node.js.
 
+## Features
+
+- Add, complete, and delete tasks
+- List all tasks with status indicators
+- Persistent storage via JSON file
+- Filter tasks by status
+
+## Usage
+
+```bash
+node src/index.js add "Buy groceries"
+node src/index.js list
+node src/index.js complete 1
+node src/index.js delete 1
+node src/index.js list --done
+node src/index.js list --pending
+```
+
+## Testing
+
+```bash
+npm test
+```
+
