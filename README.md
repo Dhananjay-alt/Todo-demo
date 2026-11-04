@@ -26,3 +26,19 @@ node src/index.js list --pending
 npm test
 ```
 
+
+## Quick verification
+
+From the repository directory, check Node.js and run the existing tests before trying the CLI:
+
+```bash
+node --version
+npm test
+node src/index.js list
+```
+
+The package also exposes the CLI through npm. Pass arguments after `--`:
+
+```bash
+npm start -- list
+```
