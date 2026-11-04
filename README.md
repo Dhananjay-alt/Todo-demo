@@ -36,3 +36,9 @@ node --version
 npm test
 node src/index.js list
 ```
+
+The package also exposes the CLI through npm. Pass arguments after `--`:
+
+```bash
+npm start -- list
+```
