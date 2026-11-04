@@ -1,0 +1,13 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "A simple TODO app for testing ghostcommits",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node tests/todo.test.js"
+  },
+  "keywords": ["todo", "cli"],
+  "license": "MIT"
+}
+
